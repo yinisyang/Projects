@@ -1,0 +1,37 @@
+/*
+Dyllon Maitland-Bowman
+5/28/2014
+CSE 154 Homework 8 (Fifteen Puzzle)
+This is the stylesheet for fifteen.html
+*/
+
+body {
+	text-align:center;
+	font-style:italic;
+	font-size:14pt;
+}
+
+#puzzlearea {
+	width:400px;
+	height:400px;
+	margin-left:auto;
+	margin-right:auto;
+	position:relative;
+}
+
+.piece {
+	width:90px;
+	height:90px;
+	color:white;
+	border:5px solid black;
+	position:absolute;
+	font-size:40pt;
+	line-height:90px;
+	vertical-align:middle;
+	background-image:url("background.jpg");
+}
+
+.highlight{
+	color:red;
+	border:5px solid red;
+}

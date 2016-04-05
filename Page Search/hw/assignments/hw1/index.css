@@ -1,0 +1,21 @@
+h1 {
+	text-align:center;
+	font-size:22pt;
+}
+
+h2 {
+	font-size:18pt;
+	font-style:normal;
+}
+
+h1, h2 {
+	color:#A4A400;
+	text-decoration:underline;
+	background-color:#F0F0F0;
+	font-family:Lucida "Sans Unicode", Helvetica, Arial, sans-serif;
+}
+
+a {
+	text-decoration:none;
+	color:#A4A400;
+}

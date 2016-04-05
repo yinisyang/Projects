@@ -1,0 +1,136 @@
+body {
+	background-color: #5D94FB;
+	margin:0px;
+}
+
+body, html {
+	height:100%;
+}
+
+#contents {
+	height:100%;
+	position:relative;
+	overflow:hidden;
+}
+
+a {
+	text-decoration:none;
+	color:white;
+}
+
+ul {
+	list-style-type: none;
+	float:left;
+	margin-left:25%;
+	list-style-image: url("images/selector.png");
+}
+
+ul, h2 {
+	font-family:pixelmaster;
+	font-weight:bold;
+}
+
+li {
+	margin-bottom:3px;
+	font-size:22pt;
+}
+
+h2 {
+	font-size:26pt;
+	color:white;
+	margin-left:20%;
+	margin-bottom:0px;
+}
+
+#selector {
+	position:absolute;
+	display:none;
+}
+
+@font-face {
+    font-family: BMgermar;
+    src: url(fonts/BMgermar.TTF);
+}
+
+@font-face {
+	font-family: bubble;
+	src: url(fonts/04B_30__.TTF);
+}
+
+@font-face {
+	font-family: eightbit;
+	src: url(fonts/bitwonder.TTF);
+}
+
+@font-face {
+	font-family:pixelmaster;
+	src: url(fonts/PixelMaster.ttf);
+}
+
+#header {
+	color:#FFBAAA;
+	font-family: bubble;
+	text-align:center;
+	background-color: #CC4B09;
+	margin:0px;
+	height:200px;
+	border:4px outset #FFBAAA;
+	width:60%;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;
+	position:relative;
+}
+
+#headertext {
+	margin-top:65px;
+}
+
+#header h1 {
+	text-shadow:0px 6px black;
+}
+
+#header p {
+	text-shadow:0px 4px black;
+	font-family:bubble;
+	font-size:20pt;
+}
+
+#cse154hw, #cse154labs {
+	width:50%;
+	float:left;
+}
+
+#bricks {
+	width:100%;
+	height:64px;
+	background-image: url("images/brick.jpg");
+	background-size: 32px;
+	clear:left;
+	position:absolute;
+	bottom:0px;
+}
+
+#frames {
+	position:absolute;
+	height:64px;
+	width:32px;
+	bottom:64px;
+	left:0px;
+}
+
+.mario {
+	position:absolute;
+	
+}
+
+.marioimg {
+	height:64px;
+}
+
+.screw {
+	background-color: #FFBAAA;
+	width:5px;
+	height:5px;
+	position:absolute;
+}

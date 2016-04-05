@@ -1,0 +1,4 @@
+AuthUserFile /nfs/bronfs/uwfs/dw00/d34/dyllonb/hw/.htpasswd
+AuthName "Restricted Access"
+AuthType Basic
+require user dyllonb

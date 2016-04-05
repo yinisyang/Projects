@@ -1,0 +1,35 @@
+h1 {
+	text-align:center;
+	font-size:22pt;
+}
+
+h2 {
+	font-size:18pt;
+	font-style:normal;
+}
+
+h1, h2 {
+	color:#A4A400;
+	text-decoration:underline;
+	background-color:#F0F0F0;
+	font-family:Lucida "Sans Unicode", Helvetica, Arial, sans-serif;
+}
+
+li, p , blockquote{
+	color:#404040;
+	font-size:11pt;
+	font-family:Georgia, Garamond, serif;
+}
+
+blockquote {
+	background-color:#FFFFA8;
+	font-style:italic;
+}
+
+a {
+	color:#A4A400;
+}
+
+abbr {
+	text-decoration:underline;
+}

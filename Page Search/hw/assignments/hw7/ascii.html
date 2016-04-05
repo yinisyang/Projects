@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--Dyllon Maitland-Bowman
+	CSE 154 ASCII Art
+	5/21/2014
+
+	This page plays ASCII art animations from a premade file or custom made
+	ASCII art put into the textarea -->
+<html>
+<head>
+	<title>Custom Animation</title>
+	<link rel="stylesheet" type="text/css" href="ascii.css" />
+	<script type="text/javascript" src="https://webster.cs.washington.edu/js/asciimation/animations.js"></script>
+	<script type="text/javascript" src="https://webster.cs.washington.edu/js/asciimation/gallery.js"></script>
+	<script type="text/javascript" src="ascii.js"></script>
+	<script type="text/javascript" src="myanimation.js"></script>
+</head>
+<body>
+	<div id="main">
+		<h1>ASCII Animation Viewer</h1>
+		<textarea rows="20" cols="80" id="textarea"></textarea>
+		<fieldset>
+			<legend>Play Controls:</legend>
+			<button id="start">Start</button>
+			<button id="stop">Stop</button>
+		</fieldset>
+		<fieldset>
+			<legend>Animation:</legend>
+			<select id="animation">
+				<option value="">Blank</option>
+				<option value="EXERCISE">Exercise</option>
+				<option value="JUGGLER">Juggler</option>
+				<option value="BIKE">Bike</option>
+				<option value="DIVE">Dive</option>
+				<option value="CUSTOM">Custom</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Size:</legend>
+			<select id="size">
+				<option value="7pt">Tiny</option>
+				<option value="10pt">Small</option>
+				<option value="12pt" selected="selected">Medium</option>
+				<option value="16pt">Large</option>
+				<option value="24pt">Extra Large</option>
+				<option value="32pt">XXL</option>
+			</select>
+		</fieldset>
+		<fieldset>
+			<legend>Speed:</legend>
+			<input type="radio" name="speed" id="turbo" value="50"/>Turbo
+			<input type="radio" name="speed" id="normal" value="250" checked="checked"/>Normal
+			<input type="radio" name="speed" id="slo-mo" value="1500"/>Slo-Mo
+		</fieldset>
+		<br/>
+	</div>
+	<div id="footer">
+		<a href="https://webster.cs.washington.edu/validate-html.php"><img src="https://webster.cs.washington.edu/images/w3c-html.png" alt="Html Validator"></a><br/>
+		<a href="https://webster.cs.washington.edu/validate-css.php"><img src="https://webster.cs.washington.edu/images/w3c-css.png" alt="CSS Validator"></a><br/>
+		<a href="https://webster.cs.washington.edu/jslint/?referer"><img src="https://webster.cs.washington.edu/images/w3c-js.png" alt="JS Validator"></a>
+	</div>
+</body>
+</html>
